@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Responsive</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="list__item"><a href="#">About</a></li>
+                <li class="list__item"><a href="#pictures">Pictures</a></li>
+                <li class="list__item home"><a href="#home">Home</a></li>
+                <li class="list__item contact"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="main__title" id="pictures">Galery</h1>
+        <section class="grid__container">
+            <div class="grid__item"><img src="./img/img1.jpg" alt="imagen de galería 1"></div>
+            <div class="grid__item"><img src="./img/img2.jpg" alt="imagen de galería 2"></div>
+            <div class="grid__item"><img src="./img/img3.jpg" alt="imagen de galería 3"></div>
+            <div class="grid__item"><img src="./img/img4.jpg" alt="imagen de galería 4"></div>
+            <div class="grid__item"><img src="./img/img5.jpg" alt="imagen de galería 5"></div>
+            <div class="grid__item"><img src="./img/img6.jpg" alt="imagen de galería 6"></div>
+            <div class="grid__item"><img src="./img/img7.jpg" alt="imagen de galería 7"></div>
+            <div class="grid__item"><img src="./img/img8.jpg" alt="imagen de galería 8"></div>
+        </section>
+    </main>
+    <section id="contact" class="contact">
+        <div class="contact__text">
+            <h2>Contacto</h2>
+            <p>You can contact me with this information</p>
+        </div>
+        <div class="contact__info">
+            <a href="#">email@email.com</a>
+            <a href="#">(555)555-5555</a>
+        </div>
+    </section>
+    <footer id="footer">
+        <p>&copy; 2025 Layout Responsive, Jhonatan Morales</p>
+        <a href="https://github.com/JMoralesNunez">Github <img src="./img/github.svg" alt="github logo"></a>
+    </footer>
+</body>
+</html>
